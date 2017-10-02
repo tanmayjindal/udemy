@@ -1,0 +1,23 @@
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.col {
+	border-style: solid;
+	border-width: 0px 1px 0px 1px;
+}
+
+.row {
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+}
+
+.mid {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+}

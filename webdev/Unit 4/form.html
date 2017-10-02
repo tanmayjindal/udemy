@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!>
+
+<html>
+<head>
+	<title> User Input Form </title>
+</head>
+
+<body>
+	<h1> Register </h1>
+	
+	<form>
+		<div><label for="firstName"> First Name: </label>
+		<input id="firstName" type="text" name="firstName" placeholder="Wind" required>
+		
+		<label for="lastName"> Last Name: </label>
+		<input id="lastName" type="text" name="lastName" placeholder="Ranger" required></div>
+		
+		<div><label for="gender"> Gender: </label>
+		<label for="but1"> Male </label>
+		<input id="but1" type="radio" name="gender" value="Male">
+		<label for="but2"> Female </label>
+		<input id="but2" type="radio" name="gender" value="Female">
+		<label for="but3"> Other </label>
+		<input id="but3" type="radio" name="gender" value="Other">
+		</div>
+		
+		<div><label for="email"> Email: </label>
+		<input id="email" type="email" name="email" placeholder="" required>
+		
+		<label for="password"> Password: </label>
+		<input name="" type="password" name="password" placeholder="" pattern=".{5,10}" title="Between 5 and 10 characters" required>
+		</div>
+		<div>
+			<label for="DOB"> Date of birth: </label>
+			<select id="DOB" name="Day">
+				<option value="Day"> Day </option>
+				<option value="4"> 4 </option>
+				<option value="12"> 12 </option>
+			</select>
+			<select id="DOB" name="Month">
+				<option value="Month"> Month </option>
+				<option value="May"> May </option>
+				<option value="September"> September </option>
+			</select>
+			<select id="DOB"name="Year">
+				<option value="Year"> Year </option>
+				<option value="1985"> 1985 </option>
+				<option value="1994"> 1994 </option>
+			</select>
+		</div>
+		<div><label for="terms"> I agree </label>
+		<input id="terms" type="checkbox" name="agree">
+		</div>
+		<select name="dropdown">
+			<option value="v1"> opt1 </option>
+			<option value="v2"> opt2 </option>
+		</select>
+		
+		<input type="submit">
+		
+		
+	</form>
